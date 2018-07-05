@@ -1,6 +1,6 @@
 import React from 'react';
 import Tilt from 'react-tilt';
-import logo from './userLogo.png';
+import Mylogo from './userLogo.png';
 import './Logo.css';
 
 const Logo = () => {
@@ -8,7 +8,7 @@ const Logo = () => {
     <div>
       <Tilt className="Tilt" options={{ max : 55 }} style={{ height: 150, width: 150 }} >
         <div className="Tilt-inner">
-          <img style={{paddingTop: '5px'}} alt='logo' src={logo}/>
+          <img style={{paddingTop: '5px'}} alt='logo' src={Mylogo}/>
         </div>
       </Tilt>
     </div>
